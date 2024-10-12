@@ -39,19 +39,33 @@ form{
     flex-direction: column;
     align-items: center;
     gap: 1vmax;
+    margin-top: 3vmax;
 }
 input{
-    width: 50vw;
-    padding: 0.5vmax;
+    width: 60vw;
+
+    padding: 2vmax;
     border-radius: 40px;
     text-align: center;
 }
 h1{
     color: black;
     -webkit-text-stroke: 1px  white;
-    font-size: 3.8vmax ;
+    font-size: 3.7vmax ;
     font-family:fantasy;
+    margin-bottom: 4vmax;
+    padding: 1vmax;
+    
 }
 #guess{
     font-size: 3vmax;
 }
+.pr{
+    font-size: 3.5vmax;
+    padding: 0.5vmax;
+    margin-top: 0.1vmax;
+}
+#defination p{
+font-size: 3vmax;
+}
+

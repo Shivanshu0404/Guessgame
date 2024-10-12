@@ -60,6 +60,12 @@ function displayGuess(guess) {
 function displayMessage(message) {
     lowOrHi.innerHTML = `<h2>${message}</h2>`;
     lowOrHi.style.color='red'
+    lowOrHi.style.backgroundColor='black'
+    lowOrHi.style.padding='1vmax'
+    lowOrHi.style.margin='1vmax'
+    lowOrHi.style.borderRadius='10px'
+    lowOrHi.style.textAlign='center'
+    
 }
 
 function newGame() {
@@ -83,7 +89,10 @@ function endGame() {
     p.innerHTML = `<h2 id="newgame">Start New Game</h2>`;
     p.style.backgroundColor='green'
     p.style.textAlign='center'
-    p.style.borderRadius='10px'
+    p.style.borderRadius='20px'
+    p.style.width='40vmax'
+    p.style.padding='2vmax'
+    p.style.color='white'
     Startover.appendChild(p);
     playgame = false;
     newGame();
