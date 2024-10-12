@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: wheat;
+    height: 100%;
+    width: 100%;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(9, 137, 95, 0.195);
+    gap: 1vmax;
+    padding: 2vmax;
+    height: 100%;
+    border-radius: 10%;
+
+}
+p{
+    font-size: 2vmax;
+    font-weight: 700;
+    font-style: oblique;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vmax;
+}
+input{
+    width: 50vw;
+    padding: 0.5vmax;
+    border-radius: 40px;
+    text-align: center;
+}
+h1{
+    color: black;
+    -webkit-text-stroke: 1px  white;
+    font-size: 3.8vmax ;
+    font-family:fantasy;
+}
+#guess{
+    font-size: 3vmax;
+}
