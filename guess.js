@@ -93,7 +93,7 @@ function endGame() {
     p.style.width='40vmax'
     p.style.padding='2vmax'
     p.style.color='white'
-    Startover.appendChild(p);
+    Startover.appendChild(p); 
     playgame = false;
     newGame();
 }
